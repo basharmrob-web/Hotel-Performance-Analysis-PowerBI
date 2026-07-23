@@ -1,1 +1,31 @@
+# 🏨 Hotel Booking & Performance Analysis
 
+A comprehensive end-to-end Business Intelligence project built using **Power BI** to analyze hotel booking dynamics, revenue drivers, cancellation behaviors, and operational metrics.
+
+---
+
+## 📊 Dataset Coverage
+
+The dataset used in this project contains comprehensive historical data on hotel bookings.
+
+* **Time Period:** 2015 – 2017
+* **Number of Records:** ~119,390 transactions
+
+## 📋 Dataset Description & Features
+The dataset contains detailed records of hotel reservations, covering orders, guest demographics, booking channels, and operational factors. Key attributes include:
+
+* **Hotel Type:** City Hotel vs. Resort Hotel (`hotel`)
+* **Booking Status:** Cancellations and reservation outcomes (`is_canceled`, `reservation_status`)
+* **Lead Time:** Number of days between booking and actual arrival (`lead_time`)
+* **Arrival Dates:** Years, months, and weeks of arrival (`arrival_date_year`, `arrival_date_month`, etc.)
+* **Guest Demographics:** Adults, children, babies, and customer types (`adults`, `children`, `customer_type`)
+* **Market Segments:** Online/Offline travel agents, corporate, and direct bookings (`market_segment`, `distribution_channel`)
+* **Financials:** Average Daily Rate (`adr`) and total revenue generation
+
+These fields support robust analyses such as:
+* Global revenue distribution and country-level performance
+* Monthly and seasonal booking growth trends
+* Cancellation behavior based on lead time and market segments
+* Root cause analysis using decomposition trees
+
+---
